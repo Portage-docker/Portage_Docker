@@ -13,9 +13,9 @@ services:
     networks:
       - piwigo
     environment:
-      MYSQL_USER: "piwigo"
-      MYSQL_PASSWORD: "piwigo"
-      MYSQL_DATABASE: "piwigo"
+      MYSQL_USER: "${TAG_USER}"
+      MYSQL_PASSWORD: "${TAG_PASSWORD}"
+      MYSQL_DATABASE: "${TAG_DATABASE}"
       MYSQL_RANDOM_ROOT_PASSWORD: "true"
 
   nginx:
