@@ -5,8 +5,6 @@ services:
     image: piwigo-docker
     networks:
       - piwigo
-    ports:
-      - "80:80"
 
   mysql:
     container_name: piwigo_mysql
@@ -19,6 +17,19 @@ services:
       MYSQL_PASSWORD: "piwigo"
       MYSQL_DATABASE: "piwigo"
       MYSQL_RANDOM_ROOT_PASSWORD: "true"
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-piwigo 
+    volumes: 
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    networks: 
+      - piwigo
+    links: 
+      - piwigo
+    ports:
+      - 80:80
+      
 
 networks:
   piwigo:
