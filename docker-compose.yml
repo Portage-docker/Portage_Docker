@@ -12,12 +12,9 @@ services:
       - /data/piwigo/data/themes:/var/www/themes
       - /data/piwigo/cache:/var/www/_data/i
       - /data/piwigo/upload:/var/www/upload
-      - /data/var/log
       - /data/var/log/piwigo:/var/log/apache2
-
-
     links: 
-      - mysql
+      - mysql-damien
 
   mysql:
     container_name: piwigo_mysql
