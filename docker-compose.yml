@@ -14,7 +14,7 @@ services:
       - /data/piwigo/upload:/var/www/upload
       - /data/var/log/piwigo:/var/log/apache2
     links: 
-      - mysql-damien
+      - mysql
 
   mysql:
     container_name: piwigo_mysql
