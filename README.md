@@ -6,7 +6,7 @@ Pour faciliter le déploiement, vous pouvez exécuter le script.sh qui :
 - fera le docker-compose
 
 
-Pour exécuter le scipt, se positionner dans le dossier du repo :
+Pour exécuter le script, se positionner dans le dossier du repo :
 
     $ cd Portage_Docker
 
