@@ -159,12 +159,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
+<<<<<<< HEAD
 Contributors - [@DamienPlantin](https://github.com/DamienPlantin) - [@Nico34000](https://github.com/Nico34000)
+=======
+Pour exécuter le script, se positionner dans le dossier du repo :
+>>>>>>> 7a45ae8465f9fabac76c1996fe5a836a15728ceb
 
 Project Link: [https://github.com/Portage-docker/Portage_Docker](https://github.com/Portage-docker/Portage_Docker)
 
 
 
+<<<<<<< HEAD
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Portage-docker/Portage_Docker.svg?style=for-the-badge
@@ -180,3 +185,6 @@ Project Link: [https://github.com/Portage-docker/Portage_Docker](https://github.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+=======
+    $ ./script.sh
+>>>>>>> 7a45ae8465f9fabac76c1996fe5a836a15728ceb
