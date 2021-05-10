@@ -178,6 +178,4 @@ Project Link: [https://github.com/Portage-docker/Portage_Docker](https://github.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-=======
-    $ ./script.sh
->>>>>>> 7a45ae8465f9fabac76c1996fe5a836a15728ceb
+
